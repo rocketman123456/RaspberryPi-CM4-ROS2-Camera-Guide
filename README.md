@@ -8,3 +8,8 @@
 配置gpu_mem,usb,cam等基本项
 # 2. 启动系统，进行系统初始配置
 # 3. 安装OpenCV测试
+# 4. 发现问题
+当前没有同时支持NVME启动，ROS2与双摄像头的系统，
+Ubuntu 21.10与Manjaro可以支持双摄像头且可以从NVME启动，但是没办法支持ROS2，
+Ubuntu 20.04 Desktop与Server可以支持双摄像头与ROS2，但是没办法完美的从NVME启动。
+手动狗头
